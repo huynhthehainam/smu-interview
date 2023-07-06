@@ -1,7 +1,4 @@
-
-using Interview.WebApi.Services;
-
-namespace Interview.WebApi.Implementations
+namespace Interview.WebApi.Services
 {
     public class DrawerFactory : IDrawerFactory
     {

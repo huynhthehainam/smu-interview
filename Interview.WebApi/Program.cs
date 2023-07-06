@@ -1,4 +1,3 @@
-using Interview.WebApi.Implementations;
 using Interview.WebApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
