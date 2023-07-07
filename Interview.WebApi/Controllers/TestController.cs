@@ -25,7 +25,6 @@ public class TestController : ControllerBase
         // For task only task 1
         var sb = new StringBuilder();
         sb.Append('*', command.Size);
-
         var line = sb.ToString();
         sb.Clear();
         for (var i = 0; i < command.Size; i += 1)

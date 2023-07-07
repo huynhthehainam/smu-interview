@@ -8,6 +8,10 @@ namespace Interview.WebApi.Services
             {
                 return new SquareDrawer();
             }
+            else if (shape == "circle")
+            {
+                return new CircleDrawer();
+            }
             else
             {
                 return new TriangleDrawer();
